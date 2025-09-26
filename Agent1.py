@@ -14,7 +14,7 @@ agent = Agent(
     tools=[YFinanceTools(stock_price=True)],
     markdown=True,
     show_tool_calls=True,
-    instructions="""Tu es un agent financier de base.
+    instructions="""Tu es un agent financier.
     Ton rôle est de fournir des réponses sur les prix d'actions.
     Utilise get_current_stock_price pour toutes les requêtes boursières.
     Fournis des réponses claires et précises."""
